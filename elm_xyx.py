@@ -51,7 +51,7 @@ class LYB:
 
         try:
             r = requests.post(
-                "http://124.70.10.200:18848/api/getXSign",
+                "http://ip.deccc.fun:9999/api/getXSign",
                 json=body
             )
             r.raise_for_status()
